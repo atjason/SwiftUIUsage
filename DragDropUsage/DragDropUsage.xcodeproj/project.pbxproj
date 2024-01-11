@@ -11,6 +11,7 @@
 		969B1ABF2B4FDCE50004BF8F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969B1ABE2B4FDCE50004BF8F /* ContentView.swift */; };
 		969B1AC12B4FDCE70004BF8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 969B1AC02B4FDCE70004BF8F /* Assets.xcassets */; };
 		969B1AC42B4FDCE70004BF8F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 969B1AC32B4FDCE70004BF8F /* Preview Assets.xcassets */; };
+		96CF4D892B502C6000F8A93A /* ColorItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CF4D882B502C6000F8A93A /* ColorItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		969B1ABE2B4FDCE50004BF8F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		969B1AC02B4FDCE70004BF8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		969B1AC32B4FDCE70004BF8F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		96CF4D882B502C6000F8A93A /* ColorItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				969B1ABC2B4FDCE50004BF8F /* DragDropUsageApp.swift */,
 				969B1ABE2B4FDCE50004BF8F /* ContentView.swift */,
+				96CF4D882B502C6000F8A93A /* ColorItemView.swift */,
 				969B1AC02B4FDCE70004BF8F /* Assets.xcassets */,
 				969B1AC22B4FDCE70004BF8F /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96CF4D892B502C6000F8A93A /* ColorItemView.swift in Sources */,
 				969B1ABF2B4FDCE50004BF8F /* ContentView.swift in Sources */,
 				969B1ABD2B4FDCE50004BF8F /* DragDropUsageApp.swift in Sources */,
 			);
@@ -280,6 +284,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +314,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
